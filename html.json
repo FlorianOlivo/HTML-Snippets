@@ -1,0 +1,60 @@
+{	
+	"Basic HTML5 template": {
+		"prefix": "!d",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"fr\">",
+			"\t<head>",
+			"\t\t<meta charset=\"utf-8\">",
+			"\t\t<link rel=\"stylesheet\" href=\"\">",
+			"\t\t<title>$1</title>",
+			"\t</head>",
+			"\t<body>",
+			"\t$2",
+			"\t</body>",
+			"</html>\n",
+		],
+		"description": "HTML base",
+	},
+///////////////////////////////////////////////////////////
+	"ul": {
+		"prefix": "ul",
+		"body": [
+			"<ul>",
+			"\t<li>$1</li>",
+			"</ul>",
+		],
+		"description": "one ul",
+	},
+///////////////////////////////////////////////////////////
+	"ul2": {
+		"prefix": "ul2",
+		"body": [
+			"<ul>",
+			"\t<li>$1</li>",
+			"\t<li>$2</li>",
+			"</ul>",
+		],
+		"description": "two ul",
+	},
+///////////////////////////////////////////////////////////		
+	"ul3": {
+		"prefix": "ul3",
+		"body": [
+			"<ul>",
+			"\t<li>$1</li>",
+			"\t<li>$2</li>",
+			"\t<li>$3</li>",
+			"</ul>",
+		],
+		"description": "three ul",
+	},
+///////////////////////////////////////////////////////////
+	"srcipt src": {
+		"prefix": "ssrc",
+		"body": "<script src=\"$1\"><script>",
+		"description": "script src shortcut",
+	},
+}
+
+	
